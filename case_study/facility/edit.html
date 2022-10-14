@@ -13,12 +13,10 @@
 <div id="form" style="text-align: center">
 
     <form>
-        <input type="hidden" th:field="*{id}"/>
         <div>
             <label><b>Customer Name</b></label>
-            <input type="text" th:field="*{name}"/>
-            <p style="color: red" th:errors="*{name}"
-               th:if="${#fields.hasErrors('name')}"></p>
+            <input type="text"/>
+            <p></p>
         </div>
         <div>
             <label><b>Date of birth</b></label>

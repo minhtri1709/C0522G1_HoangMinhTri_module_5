@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<!--    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>-->
+<!--    <script src="jquery.js"></script>-->
+<!--    <script>-->
+<!--        $(function () {-->
+<!--            $("#header").load("header.html");-->
+<!--            $("#footer").load("footer.html");-->
+<!--        });-->
+<!--    </script>-->
+
+    <style>
+        body {
+            background-image: url('https://furamavietnam.com/wp-content/uploads/2018/08/BG2.jpg');
+            background-position: right bottom;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            overflow-x: hidden;
+        }
+
+        input[type=text], input[type=email], input[type=number], input[type= date], textarea, select {
+            width: 100%;
+            padding: 12px 0px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .card-type {
+            align-items: center;
+            /*margin-left: 120px;*/
+            padding: 20px 120px;
+        }
+
+        #form {
+            width: 40%;
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+            margin-top: 20px;
+            margin-left: 30%;
+            margin-bottom: 30px;
+            /*background-image: url("https://t4.ftcdn.net/jpg/03/22/45/85/360_F_322458522_fWMrqLWx59EDO1jYpMq0ACdkzv8YEYUj.jpg");*/
+        }
+
+        body {
+            background-image: url('https://furamavietnam.com/wp-content/uploads/2018/08/BG2.jpg');
+            background-position: right bottom;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            overflow-x: hidden;
+        }
+
+        input[type=submit] {
+            background-color: #22ff00;
+            width: 100px;
+            height: 40px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+
+<body>
+
+<div class="row" id="header"></div>
+
+<div class="text-center" style="color: black"><h2>Create Customer</h2></div>
+<div><a href="/customer"><i class="fa-sharp fa-solid fa-house-user"></i>Back To Customer List</a></div>
+<div id="form" style="text-align: center">
+
+    <form action="@{/customer/save}"
+          method="post" novalidate="novalidate">
+
+        <div>
+            <label><b>Customer Name</b></label>
+            <input type="text"/>
+
+        </div>
+        <div>
+            <label><b>Date of birth</b></label>
+            <input type="date"/>
+        </div>
+        <div>
+            <label><b>Gender</b></label>
+            <select>
+                <option>Male</option>
+                <option>Female</option>
+            </select>
+        </div>
+        <div>
+            <label><b>Id Card</b></label>
+            <input type="text"/>
+        </div>
+        <div>
+            <label><b>Phone Number</b></label>
+            <input type="number"/>
+
+        </div>
+        <div>
+            <label><b>Email</b></label>
+            <input type="email"/>
+        </div>
+        <div>
+            <label><b>Address</b></label>
+            <input type="text"/>
+        </div>
+        <div>
+            <label><b>Customer type</b></label>
+            <select>
+                <option>
+                    Silver
+                </option>
+                <option>
+                    Gold
+                </option>
+                <option>
+                    Platinum
+                </option>
+                <option>
+                    Diamond
+                </option>
+            </select>
+        </div>
+        <input id="save" type="submit" value="Save"/>
+    </form>
+</div>
+
+<div class="row" id="footer"></div>
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</html>

@@ -1,0 +1,17 @@
+<form>
+  <div>
+    <input type="text" id="number1" [(ngModel)]="number1" name="number1">
+  </div>
+  <div>
+    <input type="text" id="number2" [(ngModel)]="number2" name="number2">
+  </div>
+  <select name="option" #cal>
+    <option value="Add">+</option>
+    <option value="Minus">_</option>
+    <option value="Mul">*</option>
+    <option value="Device">/</option>
+  </select>
+  <br>
+  <button type="submit" (click)="calculation(cal.value)">Calculated</button>
+  <div>{{result}}</div>
+</form>

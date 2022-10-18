@@ -1,0 +1,76 @@
+<div class="text-center" style="color: black"><h2>Edit Facility</h2></div>
+<div><a href="/facility"><i class="fa-sharp fa-solid fa-house-user"></i>Back To Facility List</a></div>
+
+<div id="form" style="text-align: center">
+  <form action="/facility/edit" object="${facility}"
+        method="post" novalidate="novalidate">
+    <div>
+      <label><b>Facility Type</b></label>
+      <input readonly type="text"/>
+    </div>
+
+    <div>
+      <label><b>Facility Name</b></label>
+      <input type="text"/>
+    </div>
+
+    <div>
+      <label><b>Area</b></label>
+      <input type="number"/>
+    </div>
+
+    <div>
+      <label><b>Cost</b></label>
+      <input type="number"/>
+    </div>
+
+    <div>
+      <label><b>Rent Type</b></label>
+      <select>
+        <option>Days</option>
+        <option>Weeks</option>
+        <option>Months</option>
+        <option>Years</option>
+      </select>
+
+    </div>
+
+    <div>
+      <label><b>People</b></label>
+      <input type="number"/>
+    </div>
+
+    <div>
+      <label><b>Standard Room</b></label>
+      <input type="text"/>
+    </div>
+
+    <div>
+      <label><b>Description</b></label>
+      <input type="text"/>
+    </div>
+
+
+
+    <div>
+      <label><b>Area's pool</b></label>
+      <input type="text"/>
+    </div>
+
+
+
+    <div>
+      <label><b>Number of Floor</b></label>
+      <input type="number"/>
+    </div>
+
+
+
+    <div>
+      <label><b>Facility Free</b></label>
+      <input type="text"/>
+    </div>
+
+    <input id="save" type="submit" value="Save"/>
+  </form>
+</div>

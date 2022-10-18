@@ -1,3 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
-
+input[type=text], input[type=email], input[type=number], input[type= date], textarea, select {
+  width: 100%;
+  padding: 12px 0px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  background-color: #22ff00;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+#form {
+  width: 40%;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: 30%;
+  margin-bottom: 30px;
+  /*background-image: url("https://t4.ftcdn.net/jpg/03/22/45/85/360_F_322458522_fWMrqLWx59EDO1jYpMq0ACdkzv8YEYUj.jpg");*/
+}

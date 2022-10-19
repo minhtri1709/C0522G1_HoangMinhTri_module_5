@@ -8,6 +8,8 @@ import { HomeComponent } from './home/home.component';
 import { FacilityComponent } from './facility/facility.component';
 import { FacilityEditComponent } from './facility-edit/facility-edit.component';
 import { FacilityCreateComponent } from './facility-create/facility-create.component';
+import { CustomerListComponent } from './customer-list/customer-list.component';
+import { CustomerEditComponent } from './customer-edit/customer-edit.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { FacilityCreateComponent } from './facility-create/facility-create.compo
     HomeComponent,
     FacilityComponent,
     FacilityEditComponent,
-    FacilityCreateComponent
+    FacilityCreateComponent,
+    CustomerListComponent,
+    CustomerEditComponent
   ],
   imports: [
     BrowserModule

@@ -1,0 +1,92 @@
+<div class="container">
+  <div class="row">
+    <div class="text-center">
+      <h2>Register</h2>
+    </div>
+  </div>
+  <div class="row container w-50">
+    <div [formGroup]="registerForm">
+      <div class="mb-3">
+        <label for="email">Email</label>
+        <br>
+        <input type="text" id="email" formControlName="email">
+      </div>
+
+      <div class="text-danger"
+           *ngIf="registerForm.controls.email.hasError('required') && registerForm.controls.email.dirty">
+        Please input email
+      </div>
+
+      <div class="text-danger"
+           *ngIf="registerForm.controls.email.hasError('email') && registerForm.controls.email.dirty">
+        Please input email valid
+      </div>
+
+      <div class="mb-3">
+        <label for="country">Country</label><br>
+        <select id="country" formControlName="country">
+          <option *ngFor="let country of countryList" [ngValue]="country.id">{{country.name}}</option>
+        </select>
+      </div>
+
+      <div class="text-danger"
+           *ngIf="registerForm.controls.country.hasError('required') && registerForm.controls.country.touched">
+        Please select your country
+      </div>
+
+      <div class="mb-3">
+        <label for="age">Age</label><br>
+        <input type="date" id="age" formControlName="age">
+      </div>
+
+      <div class="text-danger"
+           *ngIf="registerForm.controls.age.hasError('isValidAge') && registerForm.controls.age.touched">
+        Age must be greater than 18
+      </div>
+
+      <div class="mb-3">
+        <label for="phone">Phone</label><br>
+        <input type="number" id="phone" formControlName="phone">
+      </div>
+
+      <div class="text-danger"
+           *ngIf="registerForm.controls.phone.hasError('pattern') && registerForm.controls.phone.dirty">
+        Phone number must be in format validation
+      </div>
+      <div class="text-danger"
+           *ngIf="registerForm.controls.phone.hasError('required') && registerForm.controls.phone.dirty">
+        Please input phone number
+      </div>
+
+      <div class="mb-3 form-check">
+        <label class="form-label">Gender:</label><br>
+        <input type="radio" value="Male" formControlName="gender">Male
+        <input type="radio" value="FeMale" formControlName="gender">FeMale
+      </div>
+
+      <div class="mb-3" formGroupName="passwordGroup">
+        <div class="form-group">
+          <label for="password">Password</label><br>
+          <input id="password" formControlName="firstPassword">
+        </div>
+
+        <div class="text-danger"
+             *ngIf="registerForm.get('passwordGroup').hasError('minlength','firstPassword')
+              && registerForm.get('passwordGroup').get('firstPassword').touched">
+          Password at least 5 character
+        </div>
+
+        <div class="form-group">
+          <label for="secondPassword">Confirm Password</label><br>
+          <input id="secondPassword" formControlName="secondPassword">
+          <div class="text-danger"
+               *ngIf="registerForm.controls.passwordGroup.hasError('passwordnotmatch')
+             && registerForm.controls.passwordGroup.dirty">
+            Password does not match
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

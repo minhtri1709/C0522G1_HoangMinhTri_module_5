@@ -1,0 +1,12 @@
+<table>
+  <tr>
+    <th>Key Word</th>
+    <th>Mean</th>
+  </tr>
+  <tr *ngFor="let key of word">
+    <td>{{key.word}}</td>
+    <td>
+      <a routerLink="detail/{{key.word}}">Translate</a>
+    </td>
+  </tr>
+</table>

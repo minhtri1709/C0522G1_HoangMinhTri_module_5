@@ -1,4 +1,5 @@
 <h1>Xoá sản phẩm</h1>
+<div *ngIf=" productForm != undefined">
 <form [formGroup]="productForm" (ngSubmit)="deleteProduct()">
   <table>
     <tr>
@@ -18,8 +19,13 @@
       <td><input type="text" formControlName="description"></td>
     </tr>
     <tr>
+      <td>Thể loại </td>
+      <td><input type="text" formControlName="category"></td>
+    </tr>
+    <tr>
       <td></td>
       <td><button>Xoá</button></td>
     </tr>
   </table>
 </form>
+</div>

@@ -1,0 +1,52 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "name": "IPhone xx",
+      "price": 2400000,
+      "description": "New",
+      "category": {
+        "id": 652,
+        "name": "Tran Cong Khanh"
+      }
+    },
+    {
+      "id": 3,
+      "name": "IPhone X",
+      "price": 968000,
+      "description": "97%",
+      "category": {
+        "name": "Hoat hinh",
+        "id": 984
+      }
+    },
+    {
+      "id": 2312,
+      "name": "werfwe4",
+      "price": null,
+      "description": "ert",
+      "category": {
+        "name": "Hoat hinh",
+        "id": 984
+      }
+    }
+  ],
+  "categories": [
+    {
+      "id": 983,
+      "name": "Nguyen Van An"
+    },
+    {
+      "id": 231,
+      "name": "Do Hung Long"
+    },
+    {
+      "id": 652,
+      "name": "Tran Cong Khanh"
+    },
+    {
+      "name": "Hoat hinh",
+      "id": 984
+    }
+  ]
+}

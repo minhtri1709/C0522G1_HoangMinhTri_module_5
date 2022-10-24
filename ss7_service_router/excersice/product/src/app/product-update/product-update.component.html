@@ -18,8 +18,20 @@
       <td><input type="text" formControlName="description"></td>
     </tr>
     <tr>
+      <td>Thể loại</td>
+      <td>
+        <select formControlName="category">
+          <option [ngValue]="temp" *ngFor="let temp of categories">
+            {{temp.name}}
+          </option>
+        </select>
+      </td>
+    </tr>
+    <tr>
       <td></td>
-      <td><button type="submit">Cập nhật</button></td>
+      <td>
+        <button type="submit">Cập nhật</button>
+      </td>
     </tr>
   </table>
 </form>

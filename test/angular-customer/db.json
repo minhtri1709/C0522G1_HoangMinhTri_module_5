@@ -1,0 +1,100 @@
+{
+  "customerList": [
+    {
+      "id": 1,
+      "customerName": "Truong Tan Hai"
+    },
+    {
+      "id": 2,
+      "customerName": "Doan Phuoc Trung"
+    },
+    {
+      "id": 3,
+      "customerName": "Nguyen Thanh Cong"
+    },
+    {
+      "id": 4,
+      "customerName": "Dang Chi Trung"
+    }
+  ],
+  "savingBook": [
+    {
+      "id": 1,
+      "dayOfBegin": "01-01-2020",
+      "openingDay": "01-01-2020",
+      "period": 2,
+      "money": "1000000",
+      "interest": "6",
+      "promotion": "Coat",
+      "customerType": {
+        "id": 5,
+        "customerTypeName": "Truong Tan Hai"
+      }
+    },
+    {
+      "id": 2,
+      "dayOfBegin": "01-01-2020",
+      "openingDay": "01-01-2020",
+      "period": 2,
+      "money": "1000000",
+      "interest": "6",
+      "promotion": "Coat",
+      "customerType": {
+        "id": 2,
+        "customerName": "Doan Phuoc Trung"
+      }
+    },
+    {
+      "id": 3,
+      "dayOfBegin": "01-01-2020",
+      "openingDay": "01-01-2020",
+      "period": 2,
+      "money": "1000000",
+      "interest": "6",
+      "promotion": "Coat",
+      "customerType": {
+        "id": 2,
+        "customerName": "Doan Phuoc Trung"
+      }
+    },
+    {
+      "id": 4,
+      "dayOfBegin": "01-01-2020",
+      "openingDay": "01-01-2020",
+      "period": 2,
+      "money": "1000000",
+      "interest": "6",
+      "promotion": "Coat",
+      "customerType": {
+        "id": 5,
+        "customerTypeName": "Truong Tan Hai"
+      }
+    },
+    {
+      "id": 5,
+      "dayOfBegin": "01-01-2020",
+      "openingDay": "01-01-2020",
+      "period": 2,
+      "money": "1000000",
+      "interest": "6",
+      "promotion": "Coat",
+      "customerType": {
+        "id": 5,
+        "customerTypeName": "Truong Tan Hai"
+      }
+    },
+    {
+      "id": 6,
+      "dayOfBegin": "01-01-2020",
+      "openingDay": "01-01-2020",
+      "period": 2,
+      "money": "1000000",
+      "interest": "6",
+      "promotion": "Coat",
+      "customerType": {
+        "id": 5,
+        "customerTypeName": "Truong Tan Hai"
+      }
+    }
+  ]
+}

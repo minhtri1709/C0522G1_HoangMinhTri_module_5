@@ -1,0 +1,124 @@
+<div class="mx-5 px-5 pt-3 pb-5">
+  <h2 class="text-center fw-bold text-light">Edit Saving</h2>
+
+  <p class="text-center">
+    <a routerLink=""><i class="fa-solid fa-backward"></i> Back to Saving List</a>
+  </p>
+
+  <div class="justify-content-center d-flex">
+    <form class=" w-50 border border-2 border-success p-3 rounded formCSS" novalidate="novalidate"
+          [formGroup]="savingFormGroup" (ngSubmit)="updateCustomer(savingId)">
+
+      <div formGroupName="customerList" class="mt-3 form-group">
+        <div>
+          <label>Id Customer</label>
+        </div>
+        <div>
+          <input readonly formControlName="id" class="form-control">
+        </div>
+
+        <div class="form-group">
+          <label for="name" class="h6">Name Of Customer:</label>
+          <!--        <div class="alert alert-danger" role="alert"-->
+          <!--             *ngIf="savingFormGroup.controls.customerName.hasError('required') && savingFormGroup.controls.customerName.touched">-->
+          <!--          Can not be empty!!!-->
+          <!--        </div>-->
+          <!--        <div class="alert alert-danger" role="alert"-->
+          <!--             *ngIf="customerFormGroup.controls.customerName.hasError('invalidName') &&-->
+          <!--                      customerFormGroup.controls.customerName.touched">-->
+          <!--          Tên khách hàng phải viết hoa mỗi chữ cái đầu và không đươch chứa số!-->
+          <!--        </div>-->
+          <div class="input-group">
+            <input type="text" id="name" class="form-control"
+                   formControlName="customerName"/>
+            <span class="input-group-text"><i class="fa-solid fa-person-circle-question"></i></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-3 form-group">
+        <label for="idSaving" class="h6">Id of Saving :</label>
+        <input readonly id="idSaving" class="form-control" formControlName="id"
+        />
+      </div>
+
+      <div class="mt-3 form-group">
+        <label for="dateOfBirth" class="h6">Day of Begginning :</label>
+        <input type="date" id="dateOfBirth" class="form-control" formControlName="dayOfBegin"
+        />
+      </div>
+
+      <div class="mt-3 form-group">
+        <label for="dateOfBirth" class="h6">Day of Begginning :</label>
+        <input type="date" class="form-control" formControlName="dayOfBegin"
+        />
+      </div>
+
+
+      <div class="mt-3 form-group">
+        <label for="idCard" class="h6">Period:</label>
+        <!--        <div class="alert alert-danger" role="alert"-->
+        <!--             *ngIf="savingFormGroup.controls.period.hasError('required') &&-->
+        <!--                      savingFormGroup.controls.period.touched">-->
+        <!--          Can not be empty!!!-->
+        <!--        </div>-->
+
+        <div class="input-group">
+          <input type="text" id="idCard" class="form-control"
+                 formControlName="period"/>
+          <span class="input-group-text"><i class="fa-solid fa-id-card"></i></span>
+        </div>
+      </div>
+
+      <div class="mt-3 form-group">
+        <label for="phone" class="h6">Money:</label>
+        <!--        <div class="alert alert-danger" role="alert"-->
+        <!--             *ngIf="savingFormGroup.controls.money.hasError('required') &&-->
+        <!--                      savingFormGroup.controls.money.touched">-->
+        <!--          Can not be empty!!!-->
+        <!--        </div>-->
+
+        <div class="input-group">
+          <input type="text" id="phone" class="form-control" placeholder="Nhập SĐT.." formControlName="money"/>
+          <span class="input-group-text"><i class="fa-solid fa-square-phone"></i></span>
+        </div>
+      </div>
+
+      <div class="mt-3 form-group">
+        <label for="email" class="h6">Interest:</label>
+        <!--        <div class="alert alert-danger" role="alert"-->
+        <!--             *ngIf="savingFormGroup.controls.interest.hasError('required') &&-->
+        <!--                      savingFormGroup.controls.interest.touched">-->
+        <!--          Can not be empty!!!-->
+        <!--        </div>-->
+
+        <div class="input-group">
+          <input type="text" id="email" class="form-control"
+                 formControlName="interest"/>
+          <span class="input-group-text"><i class="fa-solid fa-envelope-circle-check"></i></span>
+        </div>
+      </div>
+
+      <div class="mt-3 form-group">
+        <label for="address" class="h6">Promotion:</label>
+        <!--        <div class="alert alert-danger" role="alert"-->
+        <!--             *ngIf="savingFormGroup.controls.promotion.hasError('required') &&-->
+        <!--                      savingFormGroup.controls.promotion.touched">-->
+        <!--          Can not be empty!!!-->
+        <!--        </div>-->
+        <div class="input-group">
+          <input type="text" id="address" class="form-control"
+                 formControlName="promotion"/>
+          <span class="input-group-text"><i class="fa-solid fa-map-location-dot"></i></span>
+        </div>
+      </div>
+
+      <div class="mt-3 text-center">
+        <button class="btn btn-info btn-outline-success btn-sm border border-2 border-success text-dark">
+          -- Lưu <i class="fa-solid fa-floppy-disk"></i> --
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+

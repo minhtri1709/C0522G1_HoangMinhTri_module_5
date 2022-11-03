@@ -1,0 +1,48 @@
+{
+  "customerList": [
+    {
+      "id": 1,
+      "customerName": "Hoàng Minh Trí",
+      "customerDateOfBirth": "1998-09-17",
+      "customerGender": 1,
+      "customerIdCard": 123158151,
+      "customerPhoneNumber": "0929382474",
+      "customerEmail": "trihoangminh52@gmail.com",
+      "customerAddress": "Huế",
+      "customerType": "Diamond"
+    },
+    {
+      "id": 3,
+      "customerName": "Hoàng Minh Trí",
+      "customerDateOfBirth": "1998-09-17",
+      "customerGender": 1,
+      "customerIdCard": 123158151,
+      "customerPhoneNumber": "0929382474",
+      "customerEmail": "trihoangminh52@gmail.com",
+      "customerAddress": "Huế",
+      "customerType": "Diamond"
+    },
+    {
+      "id": 4,
+      "customerName": "Hoàng Minh Trí",
+      "customerDateOfBirth": "1998-09-17",
+      "customerGender": 1,
+      "customerIdCard": 123158151,
+      "customerPhoneNumber": "0929382474",
+      "customerEmail": "trihoangminh52@gmail.com",
+      "customerAddress": "Huế",
+      "customerType": "Diamond"
+    },
+    {
+      "id": 5,
+      "customerName": "Van Nam",
+      "customerDateOfBirth": "1998-09-17",
+      "customerGender": 1,
+      "customerIdCard": 123158151,
+      "customerPhoneNumber": "0929382474",
+      "customerEmail": "trihoangminh52@gmail.com",
+      "customerAddress": "Huế",
+      "customerType": "Diamond"
+    }
+  ]
+}

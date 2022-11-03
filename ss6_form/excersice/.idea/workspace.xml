@@ -1,7 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d51d811d-fd8a-4878-bd10-6079e445d7a6" name="Default Changelist" comment="" />
+    <list default="true" id="d51d811d-fd8a-4878-bd10-6079e445d7a6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/browserslist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/e2e/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/src/app/customer-edit/customer-edit.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/src/app/customer-edit/customer-edit.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/src/app/customer-edit/customer-edit.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/src/app/customer-edit/customer-edit.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/src/app/customer-list/customer-list.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/src/app/customer-list/customer-list.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/src/app/customer-list/customer-list.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/src/app/customer-list/customer-list.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/src/app/facility-create/facility-create.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/src/app/facility-create/facility-create.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/src/app/facility-create/facility-create.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/src/app/facility-create/facility-create.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/src/app/facility-edit/facility-edit.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/src/app/facility-edit/facility-edit.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/src/app/facility-edit/facility-edit.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/src/app/facility-edit/facility-edit.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/src/app/facility/facility.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/src/app/facility/facility.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/src/app/facility/facility.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/src/app/facility/facility.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/src/app/footer/footer.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/src/app/footer/footer.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/src/app/footer/footer.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/src/app/footer/footer.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/src/app/header/header.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/src/app/header/header.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/src/app/header/header.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/src/app/header/header.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/src/app/home/home.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/src/app/home/home.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/src/app/home/home.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/src/app/home/home.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case-study-angular/tslint.json" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +83,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../practice" />
+    <property name="ts.external.directory.path" value="D:\Codegym\C0522G1_HoangMinhTri_module_5\ss6_form\excersice\login\node_modules\typescript\lib" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -32,13 +97,17 @@
       <option name="presentableId" value="Default" />
       <updated>1666265303225</updated>
       <workItem from="1666265307264" duration="55000" />
+      <workItem from="1667205366168" duration="37000" />
     </task>
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="580" y="192" key="FileChooserDialogImpl" timestamp="1666265362013">
+    <state x="580" y="192" key="FileChooserDialogImpl" timestamp="1667205401329">
       <screen x="0" y="0" width="1603" height="902" />
     </state>
-    <state x="580" y="192" key="FileChooserDialogImpl/0.0.1603.902@0.0.1603.902" timestamp="1666265362013" />
+    <state x="580" y="192" key="FileChooserDialogImpl/0.0.1603.902@0.0.1603.902" timestamp="1667205401329" />
   </component>
 </project>

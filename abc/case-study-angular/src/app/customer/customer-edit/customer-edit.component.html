@@ -1,0 +1,68 @@
+<div class="text-center" style="color: black"><h2>Edit Customer</h2></div>
+<div><a href="/customer"><i class="fa-sharp fa-solid fa-house-user"></i>Back To Employee List</a></div>
+<div id="form" style="text-align: center">
+
+  <div class="row">
+    <div [formGroup]="customerForm">
+      <div>
+        <input hidden formControlName="id">
+      </div>
+
+      <div>
+        <label><b>Customer Name</b></label>
+        <input type="text" formControlName="customerName"/>
+      </div>
+
+      <div>
+        <label><b>Date of birth</b></label>
+        <input type="date" formControlName="customerDateOfBirth"/>
+      </div>
+
+      <div>
+        <label><b>Gender</b></label>
+        <div class="d-flex">
+          <label class="d-block me-4">
+            <input type="radio" formControlName="customerGender" [value]="0">
+            <i class="fa-solid fa-mars">Female</i>
+          </label>
+          <label class="d-block">
+            <input type="radio" formControlName="customerGender" [value]="1">
+            <i class="fa-solid fa-venus">Male</i>
+          </label>
+        </div>
+      </div>
+      <div>
+        <label><b>Id Card</b></label>
+        <input type="text" formControlName="customerIdCard"/>
+      </div>
+      <div>
+        <label><b>Phone Number</b></label>
+        <input type="number" formControlName="customerPhoneNumber"/>
+      </div>
+
+      <div>
+        <label><b>Email</b></label>
+        <input type="email" formControlName="customerEmail"/>
+      </div>
+      <div>
+
+        <label><b>Address</b></label>
+        <input type="text" formControlName="customerAddress"/>
+      </div>
+
+      <div>
+        <label><b>Customer type</b></label>
+        <select>
+          <option>Silver</option>
+          <option>Gold</option>
+          <option>Diamond</option>
+          <option>Platinum</option>
+        </select>
+      </div>
+      <button type="button" (click)="updateCustomer()">
+        Submit
+      </button>
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,54 @@
+<div style="margin-top: 20px; margin-bottom: 50px">
+  <div class="row">
+    <div class="col-sm-4 mb-4" *ngFor="let item of facilityList">
+      <div class="card"><img height="250px" src="{{item.facilityImage}}" class="card-img-top" alt="...">
+        <div class="card-body"><h5 class="card-title">{{item.facilityName | uppercase}}</h5>
+          <div class="row mb-2">
+            <div class="col-sm-6"><span class="card-text">Loại dịch vụ: {{item.facilityType | uppercase}}</span><br>
+              <span class="card-text">Diện tích: {{item.facilityArea}} m<sup>2</sup></span><br>
+              <span class="card-text">Chí phí thuê: {{item.rentCost | currency: "VND"}}</span>
+            </div>
+            <div class="col-sm-6"><span class="card-text">Số người tối đa: {{item.maxPeople}}</span><br> <span
+              class="card-text">Kiểu thuê: {{item.rentType}}</span></div>
+          </div>
+          <a href="/facility/update/{{item.facilityId}}" class="me-2">
+            <button class="btn btn-warning btn-outline-secondary text-dark">Cật nhật</button>
+          </a>
+<!--          <button class="btn btn-danger btn-outline-secondary text-light" data-bs-toggle="modal"-->
+<!--                  data-bs-target="#deleteFacility" (click)="getInfoFacilityDelete(item.img, item.name, item.id)">Xóa-->
+<!--          </button>-->
+          <button class="btn btn-danger btn-outline-secondary text-light" data-bs-toggle="modal"
+                  data-bs-target="#deleteFacility">Xóa
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--    Modal-->
+  <div class="modal fade" id="deleteCustomer" tabindex="-1" aria-labelledby="exampleModalLabel"
+       aria-hidden="true">
+    <div class="modal-dialog">
+
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"
+                  aria-label="Close"></button>
+        </div>
+        <form action="@{/customer/delete}">
+          <div class="modal-body">
+            <span class="h6">Customer:</span><strong id="nameDelete"
+                                                     class="text-danger ps-2"></strong>
+            <input type="hidden" name="idDelete" id="idDelete" readonly/>
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close
+            </button>
+            <button type="submit" class="btn btn-danger" value="delete">Delete</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
